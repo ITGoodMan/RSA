@@ -1,0 +1,530 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1839B1741DD00D1A00E2D0D6 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 1839B1731DD00D1A00E2D0D6 /* main.m */; };
+		1839B1771DD00D1A00E2D0D6 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1839B1761DD00D1A00E2D0D6 /* AppDelegate.m */; };
+		1839B17A1DD00D1A00E2D0D6 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1839B1791DD00D1A00E2D0D6 /* ViewController.m */; };
+		1839B17D1DD00D1A00E2D0D6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1839B17B1DD00D1A00E2D0D6 /* Main.storyboard */; };
+		1839B17F1DD00D1A00E2D0D6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1839B17E1DD00D1A00E2D0D6 /* Assets.xcassets */; };
+		1839B1821DD00D1A00E2D0D6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1839B1801DD00D1A00E2D0D6 /* LaunchScreen.storyboard */; };
+		1839B18D1DD00D1B00E2D0D6 /* RSATests.m in Sources */ = {isa = PBXBuildFile; fileRef = 1839B18C1DD00D1B00E2D0D6 /* RSATests.m */; };
+		1839B1981DD00D1B00E2D0D6 /* RSAUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 1839B1971DD00D1B00E2D0D6 /* RSAUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		1839B1891DD00D1B00E2D0D6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1839B1671DD00D1800E2D0D6 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1839B16E1DD00D1900E2D0D6;
+			remoteInfo = RSA;
+		};
+		1839B1941DD00D1B00E2D0D6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1839B1671DD00D1800E2D0D6 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1839B16E1DD00D1900E2D0D6;
+			remoteInfo = RSA;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		1839B16F1DD00D1A00E2D0D6 /* RSA.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RSA.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		1839B1731DD00D1A00E2D0D6 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		1839B1751DD00D1A00E2D0D6 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		1839B1761DD00D1A00E2D0D6 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		1839B1781DD00D1A00E2D0D6 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		1839B1791DD00D1A00E2D0D6 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		1839B17C1DD00D1A00E2D0D6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		1839B17E1DD00D1A00E2D0D6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		1839B1811DD00D1A00E2D0D6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		1839B1831DD00D1A00E2D0D6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1839B1881DD00D1B00E2D0D6 /* RSATests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RSATests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		1839B18C1DD00D1B00E2D0D6 /* RSATests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RSATests.m; sourceTree = "<group>"; };
+		1839B18E1DD00D1B00E2D0D6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1839B1931DD00D1B00E2D0D6 /* RSAUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RSAUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		1839B1971DD00D1B00E2D0D6 /* RSAUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RSAUITests.m; sourceTree = "<group>"; };
+		1839B1991DD00D1B00E2D0D6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1839B16C1DD00D1900E2D0D6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1839B1851DD00D1B00E2D0D6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1839B1901DD00D1B00E2D0D6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1839B1661DD00D1800E2D0D6 = {
+			isa = PBXGroup;
+			children = (
+				1839B1711DD00D1A00E2D0D6 /* RSA */,
+				1839B18B1DD00D1B00E2D0D6 /* RSATests */,
+				1839B1961DD00D1B00E2D0D6 /* RSAUITests */,
+				1839B1701DD00D1A00E2D0D6 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		1839B1701DD00D1A00E2D0D6 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1839B16F1DD00D1A00E2D0D6 /* RSA.app */,
+				1839B1881DD00D1B00E2D0D6 /* RSATests.xctest */,
+				1839B1931DD00D1B00E2D0D6 /* RSAUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		1839B1711DD00D1A00E2D0D6 /* RSA */ = {
+			isa = PBXGroup;
+			children = (
+				1839B1751DD00D1A00E2D0D6 /* AppDelegate.h */,
+				1839B1761DD00D1A00E2D0D6 /* AppDelegate.m */,
+				1839B1781DD00D1A00E2D0D6 /* ViewController.h */,
+				1839B1791DD00D1A00E2D0D6 /* ViewController.m */,
+				1839B17B1DD00D1A00E2D0D6 /* Main.storyboard */,
+				1839B17E1DD00D1A00E2D0D6 /* Assets.xcassets */,
+				1839B1801DD00D1A00E2D0D6 /* LaunchScreen.storyboard */,
+				1839B1831DD00D1A00E2D0D6 /* Info.plist */,
+				1839B1721DD00D1A00E2D0D6 /* Supporting Files */,
+			);
+			path = RSA;
+			sourceTree = "<group>";
+		};
+		1839B1721DD00D1A00E2D0D6 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				1839B1731DD00D1A00E2D0D6 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		1839B18B1DD00D1B00E2D0D6 /* RSATests */ = {
+			isa = PBXGroup;
+			children = (
+				1839B18C1DD00D1B00E2D0D6 /* RSATests.m */,
+				1839B18E1DD00D1B00E2D0D6 /* Info.plist */,
+			);
+			path = RSATests;
+			sourceTree = "<group>";
+		};
+		1839B1961DD00D1B00E2D0D6 /* RSAUITests */ = {
+			isa = PBXGroup;
+			children = (
+				1839B1971DD00D1B00E2D0D6 /* RSAUITests.m */,
+				1839B1991DD00D1B00E2D0D6 /* Info.plist */,
+			);
+			path = RSAUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1839B16E1DD00D1900E2D0D6 /* RSA */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1839B19C1DD00D1B00E2D0D6 /* Build configuration list for PBXNativeTarget "RSA" */;
+			buildPhases = (
+				1839B16B1DD00D1900E2D0D6 /* Sources */,
+				1839B16C1DD00D1900E2D0D6 /* Frameworks */,
+				1839B16D1DD00D1900E2D0D6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = RSA;
+			productName = RSA;
+			productReference = 1839B16F1DD00D1A00E2D0D6 /* RSA.app */;
+			productType = "com.apple.product-type.application";
+		};
+		1839B1871DD00D1B00E2D0D6 /* RSATests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1839B19F1DD00D1B00E2D0D6 /* Build configuration list for PBXNativeTarget "RSATests" */;
+			buildPhases = (
+				1839B1841DD00D1B00E2D0D6 /* Sources */,
+				1839B1851DD00D1B00E2D0D6 /* Frameworks */,
+				1839B1861DD00D1B00E2D0D6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1839B18A1DD00D1B00E2D0D6 /* PBXTargetDependency */,
+			);
+			name = RSATests;
+			productName = RSATests;
+			productReference = 1839B1881DD00D1B00E2D0D6 /* RSATests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		1839B1921DD00D1B00E2D0D6 /* RSAUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1839B1A21DD00D1B00E2D0D6 /* Build configuration list for PBXNativeTarget "RSAUITests" */;
+			buildPhases = (
+				1839B18F1DD00D1B00E2D0D6 /* Sources */,
+				1839B1901DD00D1B00E2D0D6 /* Frameworks */,
+				1839B1911DD00D1B00E2D0D6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1839B1951DD00D1B00E2D0D6 /* PBXTargetDependency */,
+			);
+			name = RSAUITests;
+			productName = RSAUITests;
+			productReference = 1839B1931DD00D1B00E2D0D6 /* RSAUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		1839B1671DD00D1800E2D0D6 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0800;
+				ORGANIZATIONNAME = XK_RSA;
+				TargetAttributes = {
+					1839B16E1DD00D1900E2D0D6 = {
+						CreatedOnToolsVersion = 8.0;
+						ProvisioningStyle = Automatic;
+					};
+					1839B1871DD00D1B00E2D0D6 = {
+						CreatedOnToolsVersion = 8.0;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 1839B16E1DD00D1900E2D0D6;
+					};
+					1839B1921DD00D1B00E2D0D6 = {
+						CreatedOnToolsVersion = 8.0;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 1839B16E1DD00D1900E2D0D6;
+					};
+				};
+			};
+			buildConfigurationList = 1839B16A1DD00D1800E2D0D6 /* Build configuration list for PBXProject "RSA" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 1839B1661DD00D1800E2D0D6;
+			productRefGroup = 1839B1701DD00D1A00E2D0D6 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1839B16E1DD00D1900E2D0D6 /* RSA */,
+				1839B1871DD00D1B00E2D0D6 /* RSATests */,
+				1839B1921DD00D1B00E2D0D6 /* RSAUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1839B16D1DD00D1900E2D0D6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1839B1821DD00D1A00E2D0D6 /* LaunchScreen.storyboard in Resources */,
+				1839B17F1DD00D1A00E2D0D6 /* Assets.xcassets in Resources */,
+				1839B17D1DD00D1A00E2D0D6 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1839B1861DD00D1B00E2D0D6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1839B1911DD00D1B00E2D0D6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1839B16B1DD00D1900E2D0D6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1839B17A1DD00D1A00E2D0D6 /* ViewController.m in Sources */,
+				1839B1771DD00D1A00E2D0D6 /* AppDelegate.m in Sources */,
+				1839B1741DD00D1A00E2D0D6 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1839B1841DD00D1B00E2D0D6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1839B18D1DD00D1B00E2D0D6 /* RSATests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1839B18F1DD00D1B00E2D0D6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1839B1981DD00D1B00E2D0D6 /* RSAUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		1839B18A1DD00D1B00E2D0D6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1839B16E1DD00D1900E2D0D6 /* RSA */;
+			targetProxy = 1839B1891DD00D1B00E2D0D6 /* PBXContainerItemProxy */;
+		};
+		1839B1951DD00D1B00E2D0D6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1839B16E1DD00D1900E2D0D6 /* RSA */;
+			targetProxy = 1839B1941DD00D1B00E2D0D6 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		1839B17B1DD00D1A00E2D0D6 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1839B17C1DD00D1A00E2D0D6 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		1839B1801DD00D1A00E2D0D6 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1839B1811DD00D1A00E2D0D6 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		1839B19A1DD00D1B00E2D0D6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		1839B19B1DD00D1B00E2D0D6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		1839B19D1DD00D1B00E2D0D6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = RSA/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.xk.RSA;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		1839B19E1DD00D1B00E2D0D6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = RSA/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.xk.RSA;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		1839B1A01DD00D1B00E2D0D6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = RSATests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.xk.RSATests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/RSA.app/RSA";
+			};
+			name = Debug;
+		};
+		1839B1A11DD00D1B00E2D0D6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = RSATests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.xk.RSATests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/RSA.app/RSA";
+			};
+			name = Release;
+		};
+		1839B1A31DD00D1B00E2D0D6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = RSAUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.xk.RSAUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = RSA;
+			};
+			name = Debug;
+		};
+		1839B1A41DD00D1B00E2D0D6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = RSAUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.xk.RSAUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = RSA;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1839B16A1DD00D1800E2D0D6 /* Build configuration list for PBXProject "RSA" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1839B19A1DD00D1B00E2D0D6 /* Debug */,
+				1839B19B1DD00D1B00E2D0D6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1839B19C1DD00D1B00E2D0D6 /* Build configuration list for PBXNativeTarget "RSA" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1839B19D1DD00D1B00E2D0D6 /* Debug */,
+				1839B19E1DD00D1B00E2D0D6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		1839B19F1DD00D1B00E2D0D6 /* Build configuration list for PBXNativeTarget "RSATests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1839B1A01DD00D1B00E2D0D6 /* Debug */,
+				1839B1A11DD00D1B00E2D0D6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		1839B1A21DD00D1B00E2D0D6 /* Build configuration list for PBXNativeTarget "RSAUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1839B1A31DD00D1B00E2D0D6 /* Debug */,
+				1839B1A41DD00D1B00E2D0D6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 1839B1671DD00D1800E2D0D6 /* Project object */;
+}
