@@ -15,6 +15,10 @@
 		1839B1821DD00D1A00E2D0D6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1839B1801DD00D1A00E2D0D6 /* LaunchScreen.storyboard */; };
 		1839B18D1DD00D1B00E2D0D6 /* RSATests.m in Sources */ = {isa = PBXBuildFile; fileRef = 1839B18C1DD00D1B00E2D0D6 /* RSATests.m */; };
 		1839B1981DD00D1B00E2D0D6 /* RSAUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 1839B1971DD00D1B00E2D0D6 /* RSAUITests.m */; };
+		1839B1A71DD0604600E2D0D6 /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1839B1A61DD0604600E2D0D6 /* Security.framework */; };
+		1839B1AC1DD060E900E2D0D6 /* RSAEncryptor.m in Sources */ = {isa = PBXBuildFile; fileRef = 1839B1AB1DD060E900E2D0D6 /* RSAEncryptor.m */; };
+		1839B1AF1DD064F800E2D0D6 /* public_key.der in Resources */ = {isa = PBXBuildFile; fileRef = 1839B1AD1DD064F800E2D0D6 /* public_key.der */; };
+		1839B1B01DD064F800E2D0D6 /* private_key.p12 in Resources */ = {isa = PBXBuildFile; fileRef = 1839B1AE1DD064F800E2D0D6 /* private_key.p12 */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +55,11 @@
 		1839B1931DD00D1B00E2D0D6 /* RSAUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RSAUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		1839B1971DD00D1B00E2D0D6 /* RSAUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RSAUITests.m; sourceTree = "<group>"; };
 		1839B1991DD00D1B00E2D0D6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1839B1A61DD0604600E2D0D6 /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
+		1839B1AA1DD060E900E2D0D6 /* RSAEncryptor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RSAEncryptor.h; sourceTree = "<group>"; };
+		1839B1AB1DD060E900E2D0D6 /* RSAEncryptor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RSAEncryptor.m; sourceTree = "<group>"; };
+		1839B1AD1DD064F800E2D0D6 /* public_key.der */ = {isa = PBXFileReference; lastKnownFileType = file; path = public_key.der; sourceTree = "<group>"; };
+		1839B1AE1DD064F800E2D0D6 /* private_key.p12 */ = {isa = PBXFileReference; lastKnownFileType = file; path = private_key.p12; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +67,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1839B1A71DD0604600E2D0D6 /* Security.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -85,6 +95,7 @@
 				1839B18B1DD00D1B00E2D0D6 /* RSATests */,
 				1839B1961DD00D1B00E2D0D6 /* RSAUITests */,
 				1839B1701DD00D1A00E2D0D6 /* Products */,
+				1839B1A51DD0604600E2D0D6 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -101,10 +112,14 @@
 		1839B1711DD00D1A00E2D0D6 /* RSA */ = {
 			isa = PBXGroup;
 			children = (
+				1839B1AD1DD064F800E2D0D6 /* public_key.der */,
+				1839B1AE1DD064F800E2D0D6 /* private_key.p12 */,
 				1839B1751DD00D1A00E2D0D6 /* AppDelegate.h */,
 				1839B1761DD00D1A00E2D0D6 /* AppDelegate.m */,
 				1839B1781DD00D1A00E2D0D6 /* ViewController.h */,
 				1839B1791DD00D1A00E2D0D6 /* ViewController.m */,
+				1839B1AA1DD060E900E2D0D6 /* RSAEncryptor.h */,
+				1839B1AB1DD060E900E2D0D6 /* RSAEncryptor.m */,
 				1839B17B1DD00D1A00E2D0D6 /* Main.storyboard */,
 				1839B17E1DD00D1A00E2D0D6 /* Assets.xcassets */,
 				1839B1801DD00D1A00E2D0D6 /* LaunchScreen.storyboard */,
@@ -138,6 +153,14 @@
 				1839B1991DD00D1B00E2D0D6 /* Info.plist */,
 			);
 			path = RSAUITests;
+			sourceTree = "<group>";
+		};
+		1839B1A51DD0604600E2D0D6 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1839B1A61DD0604600E2D0D6 /* Security.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -248,6 +271,8 @@
 			files = (
 				1839B1821DD00D1A00E2D0D6 /* LaunchScreen.storyboard in Resources */,
 				1839B17F1DD00D1A00E2D0D6 /* Assets.xcassets in Resources */,
+				1839B1AF1DD064F800E2D0D6 /* public_key.der in Resources */,
+				1839B1B01DD064F800E2D0D6 /* private_key.p12 in Resources */,
 				1839B17D1DD00D1A00E2D0D6 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -274,6 +299,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				1839B17A1DD00D1A00E2D0D6 /* ViewController.m in Sources */,
+				1839B1AC1DD060E900E2D0D6 /* RSAEncryptor.m in Sources */,
 				1839B1771DD00D1A00E2D0D6 /* AppDelegate.m in Sources */,
 				1839B1741DD00D1A00E2D0D6 /* main.m in Sources */,
 			);
